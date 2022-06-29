@@ -1,0 +1,173 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar .nav-logo {
+  font-weight: 400;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin: 0px 5px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: aquamarine;
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: aquamarine;
+  width: 0%;
+  content: "";
+  height: 2px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link {
+  color: aquamarine !important;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+.nav-btn {
+  background-color: #55a1bb;
+  color: white;
+}
+
+#header {
+  padding-top: 150px !important;
+}
+
+#header .header-title-logo {
+  color: aquamarine;
+}
+
+#features .feature-card {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+#features .feature-card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+#features .feature-card:hover .feature-title h4 {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: aqua !important;
+}
+
+#features .feature-card .feature-icon {
+  color: aqua;
+}
+
+#team .team-member .member-img img {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
+
+#team .team-member .member-img .member-info {
+  width: 80%;
+  margin: 0 auto;
+  bottom: -15%;
+  left: 10%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#team .team-member .member-img .member-info p {
+  margin: 0;
+}
+
+#team .team-member .member-img .member-info:hover .team-social-list {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 100%;
+}
+
+#team .team-member .member-img .member-info .team-social-list {
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  left: 25%;
+  bottom: 80%;
+  opacity: 0%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#team .team-member .member-img .member-info .team-social-list .team-social-list-item {
+  margin: 0px 5px;
+  padding: 10px;
+  background-color: #1cd1d1;
+  color: white;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+#blog .blog-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#blog .blog-card {
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#blog .blog-card:hover .card-title {
+  color: aqua !important;
+}
+
+#blog .blog-card:hover .blog-img img {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#blog .blog-card .blog-img {
+  overflow: hidden;
+}
+
+#blog .blog-card .blog-img img {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#blog .blog-card .card .card-link {
+  text-decoration: none;
+  color: aqua;
+  font-size: large;
+}
+
+#contact .contact-info-list {
+  padding: 0;
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
